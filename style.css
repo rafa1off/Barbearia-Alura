@@ -1,3 +1,15 @@
+body{
+    background-color: rgb(153, 149, 149);
+}
+
+h1 {
+    text-align: center;
+}
+
 p {
     text-align: center;
+}
+
+em strong {
+    color: rgb(165, 40, 40);
 }
