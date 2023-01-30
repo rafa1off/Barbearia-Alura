@@ -16,8 +16,13 @@ p {
 
 #missao {
     font-size: 20px;
+    font-style: italic;
 }
 
-em strong {
+#missao strong {
     color: rgb(165, 40, 40);
+}
+
+.itens {
+    font-style: italic;
 }
