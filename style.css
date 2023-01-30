@@ -1,11 +1,10 @@
-body {}
-
 #banner {
     width: 100%;
 }
 
 .principal {
     background-color: rgb(196, 196, 196);
+    padding: 30px;
 }
 
 h1 {
@@ -27,10 +26,18 @@ p {
 
 .beneficios {
     background-color: white;
+    padding: 20px;
 }
 
 h2 {
     text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 15%;
 }
 
 .itens {
@@ -38,5 +45,5 @@ h2 {
 }
 
 #beneficios {
-    width: 100%;
+    width: 50%;
 }
