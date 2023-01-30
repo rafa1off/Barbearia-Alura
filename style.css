@@ -1,9 +1,11 @@
-body{
-    background-color: rgb(196, 196, 196);
-}
+body {}
 
 #banner {
     width: 100%;
+}
+
+.principal {
+    background-color: rgb(196, 196, 196);
 }
 
 h1 {
@@ -23,6 +25,18 @@ p {
     color: rgb(165, 40, 40);
 }
 
+.beneficios {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
 .itens {
     font-style: italic;
+}
+
+#beneficios {
+    width: 100%;
 }
