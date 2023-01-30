@@ -1,12 +1,17 @@
-body{
-    background-color: rgb(196, 196, 196);
+.titulo-principal {
+    padding-left: 20px;
 }
 
 #banner {
     width: 100%;
 }
 
-h1 {
+.principal {
+    background-color: rgb(196, 196, 196);
+    padding: 30px;
+}
+
+.titulo-centralizado {
     text-align: center;
 }
 
@@ -16,8 +21,29 @@ p {
 
 #missao {
     font-size: 20px;
+    font-style: italic;
 }
 
-em strong {
+#missao strong {
     color: rgb(165, 40, 40);
+}
+
+.beneficios {
+    background-color: white;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic;
+}
+
+#beneficios {
+    width: 50%;
 }
