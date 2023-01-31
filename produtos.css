@@ -1,0 +1,42 @@
+header {
+  background-color: grey;
+  padding: 20px 0;
+}
+
+.caixaNavPrincipal {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navPrincipal {
+  position: relative;
+  top: 110px;
+}
+
+.navPrincipal .itensNavPrincipal {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.navPrincipal a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.listaProdutos {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.listaProdutos .itensProdutos {
+  display: inline;
+}
