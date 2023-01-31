@@ -2,7 +2,7 @@
     padding-left: 20px;
 }
 
-#banner {
+.imgBanner {
     width: 100%;
 }
 
@@ -19,12 +19,12 @@ p {
     text-align: center;
 }
 
-#missao {
+.missao {
     font-size: 20px;
     font-style: italic;
 }
 
-#missao strong {
+.missao strong {
     color: rgb(165, 40, 40);
 }
 
@@ -44,6 +44,6 @@ ul {
     font-style: italic;
 }
 
-#beneficios {
+.imgBeneficios {
     width: 50%;
 }
