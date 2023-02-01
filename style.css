@@ -1,14 +1,71 @@
-.titulo-principal {
-  padding-left: 20px;
+/*header*/
+header {
+  background-color: grey;
+  box-shadow: 0px 3px 5px 3px rgb(63, 63, 63);
 }
 
+.imgLogo {
+  width: 80px;
+}
+
+.caixaNavPrincipal {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navPrincipal ul {
+  position: relative;
+  top: 40%;
+}
+
+.navPrincipal .itensNavPrincipal {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.navPrincipal a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.navPrincipal a:hover {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+/*main*/
 .imgBanner {
-  width: 100%;
+  position: relative;
+  width: 50%;
+ }
+
+.caixaPrincipal {
+  display: flex;
+  margin-top: 20px;
+  background-color: rgb(177, 176, 176);
 }
 
 .principal {
-  background-color: rgb(196, 196, 196);
+  position: relative;
   padding: 30px;
+  font-size: 20px;
+  top: 50%;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal h2 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .titulo-centralizado {
@@ -20,12 +77,13 @@ p {
 }
 
 .missao {
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
 }
 
 .missao strong {
   color: rgb(165, 40, 40);
+  font-weight: bold;
 }
 
 .beneficios {
@@ -33,17 +91,40 @@ p {
   padding: 20px;
 }
 
+.beneficios h3 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
 .beneficios ul {
   display: inline-block;
   vertical-align: top;
-  width: 25%;
-  margin-right: 15%;
+  width: 35%;
+  margin: auto 13%;
 }
 
 .itens {
   font-style: italic;
+  font-size: 30px;
 }
 
 .imgBeneficios {
-  width: 50%;
+  width: 30%;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  background: url("media/bg.jpg");
+  padding-bottom: 20px;
+}
+
+.copyright {
+  color: white;
+  font-size: 17px;
+}
+
+.logoBranco {
+  height: 100px;
 }
