@@ -1,0 +1,107 @@
+/*header*/
+header {
+  background-color: grey;
+  box-shadow: 0px 3px 5px 3px rgb(63, 63, 63);
+}
+
+.imgLogo {
+  width: 80px;
+}
+
+.caixaNavPrincipal {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navPrincipal ul {
+  position: relative;
+  top: 40%;
+}
+
+.navPrincipal .itensNavPrincipal {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.navPrincipal a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.navPrincipal a:hover {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+/*main*/
+.listaProdutos {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+
+.listaProdutos .itensProdutos {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.listaProdutos .itensProdutos:hover {
+  border-color: rgb(153, 72, 144);
+}
+
+.listaProdutos .itensProdutos:hover h2 {
+  font-size: 34px;
+}
+
+.listaProdutos .itensProdutos:active {
+  border-color: blueviolet;
+}
+
+.listaProdutos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descProdutos {
+  font-size: 18px;
+  padding: 0px 20px;
+}
+
+.precoProdutos {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/*footer*/
+.rodape {
+  text-align: center;
+  background: url("media/bg.jpg");
+  padding-bottom: 20px;
+}
+
+.copyright {
+  color: white;
+  font-size: 17px;
+}
+
+.logoBranco {
+  height: 100px;
+}

@@ -1,49 +1,49 @@
 .titulo-principal {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .imgBanner {
-    width: 100%;
+  width: 100%;
 }
 
 .principal {
-    background-color: rgb(196, 196, 196);
-    padding: 30px;
+  background-color: rgb(196, 196, 196);
+  padding: 30px;
 }
 
 .titulo-centralizado {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 .missao {
-    font-size: 20px;
-    font-style: italic;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .missao strong {
-    color: rgb(165, 40, 40);
+  color: rgb(165, 40, 40);
 }
 
 .beneficios {
-    background-color: white;
-    padding: 20px;
+  background-color: white;
+  padding: 20px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 25%;
-    margin-right: 15%;
+.beneficios ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-right: 15%;
 }
 
 .itens {
-    font-style: italic;
+  font-style: italic;
 }
 
 .imgBeneficios {
-    width: 50%;
+  width: 50%;
 }
