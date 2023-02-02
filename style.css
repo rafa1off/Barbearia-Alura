@@ -6,7 +6,6 @@
 
 .caixaPrincipal {
   display: flex;
-  margin-top: 20px;
   background-color: rgb(177, 176, 176);
 }
 
