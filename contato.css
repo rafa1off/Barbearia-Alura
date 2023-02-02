@@ -36,3 +36,37 @@ main {
 .checkbox {
     margin: 10px 10px 0 0;
 }
+
+.enviar {
+    width: 20%;
+    margin: auto 15%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s all;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+
+.tabela {
+    margin: 20px 0px 30px;
+}
+
+.tabela thead {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+.tabela td, .tabela th {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
