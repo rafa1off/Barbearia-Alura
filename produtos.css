@@ -1,19 +1,24 @@
 /*main*/
 .listaProdutos {
-  display: flex;
   width: 70%;
   margin: 0 auto;
-  justify-content: center;
-  flex-wrap: wrap;
   padding: 20px 0px;
 }
 
-.listaProdutos .itensProdutos {
-  display: inline-block;
+.listaProdutos ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.listaProdutos li {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
-  width: 30%;
+  width: 290px;
   vertical-align: top;
-  margin: 0 1.5%;
+  margin: 3% 3%;
   padding: 30px 20px;
   box-sizing: border-box;
   border: 3px solid black;
@@ -21,12 +26,12 @@
   transition: 0.4s all;
 }
 
-.listaProdutos .itensProdutos:hover {
+.listaProdutos li:hover {
   border-color: rgb(153, 72, 144);
   transform: scale(1.1);
 }
 
-.listaProdutos .itensProdutos:active {
+.listaProdutos li:active {
   border-color: blueviolet;
 }
 

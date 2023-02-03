@@ -63,7 +63,8 @@ p {
 
 .itens {
   font-style: italic;
-  font-size: 30px;
+  font-size: 23px;
+  margin: 20px 0;
 }
 
 .imgBeneficios {

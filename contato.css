@@ -1,10 +1,16 @@
 main {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .formulario {
     padding: 20px 0px;
+    position: relative;
+    width: 500px;
+    margin: auto 20px;
 }
 
 .tituloFormulario {
@@ -16,7 +22,7 @@ main {
 .inputFormulario {
     display: block;
     margin-bottom: 20px;
-    width: 50%;
+    width: 100%;
     padding: 10px 10px;
 }
 
@@ -37,9 +43,9 @@ main {
     margin: 10px 10px 0 0;
 }
 
-.enviar {
-    width: 20%;
-    margin: auto 15%;
+.enviar {   
+    width: 100px;
+    margin: auto 30%;
     padding: 10px;
     font-size: 16px;
     font-weight: bold;
@@ -57,7 +63,9 @@ main {
 }
 
 .tabela {
-    margin: 20px 0px 30px;
+    margin: 20px 20px;
+    position: relative;
+    height: 10%;
 }
 
 .tabela thead {
@@ -69,4 +77,10 @@ main {
 .tabela td, .tabela th {
     border: 1px solid black;
     padding: 10px 20px;
+}
+
+.caixaHorario select {
+    scale: 1.2;
+    margin-left: 20px;
+    width: 80px;
 }
