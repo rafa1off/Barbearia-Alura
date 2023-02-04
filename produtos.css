@@ -1,4 +1,12 @@
+body {
+  background: linear-gradient(#FEFEFE 65%, #888888);
+}
+
 /*main*/
+main {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .listaProdutos {
   width: 70%;
   margin: 0 auto;
@@ -49,4 +57,13 @@
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .listaProdutos li {
+    margin: 5% 3%;
+  }
+  body {
+    background: linear-gradient(#FEFEFE 90%, #888888);
+  }
 }

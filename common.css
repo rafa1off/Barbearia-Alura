@@ -22,7 +22,7 @@ header {
   top: 40%;
 }
 
-.navPrincipal .itensNavPrincipal {
+.itensNavPrincipal {
   display: inline;
   margin: 0 0 0 15px;
 }
@@ -56,4 +56,18 @@ footer {
 
 .logoBranco {
   height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .caixaNavPrincipal {
+    width: 100%;
+  }
+  .itensNavPrincipal {
+    display: block;
+  }
+  .navPrincipal ul {
+    margin: 20% 0;
+    top: 0;
+    right: 20px;
+  }
 }
