@@ -44,7 +44,7 @@ header {
 /*footer*/
 footer {
   text-align: center;
-  background: url("media/bg.jpg");
+  background: url("/media/bg.jpg");
   padding-bottom: 20px;
   margin-top: 20px;
 }
